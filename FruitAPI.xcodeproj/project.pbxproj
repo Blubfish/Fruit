@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F4D170C62B16495E00D8547A /* FruitAPIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D170C52B16495E00D8547A /* FruitAPIApp.swift */; };
-		F4D170C82B16495E00D8547A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D170C72B16495E00D8547A /* ContentView.swift */; };
+		F4D170C82B16495E00D8547A /* FruitDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D170C72B16495E00D8547A /* FruitDetails.swift */; };
 		F4D170CA2B16495F00D8547A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4D170C92B16495F00D8547A /* Assets.xcassets */; };
 		F4D170CD2B16495F00D8547A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4D170CC2B16495F00D8547A /* Preview Assets.xcassets */; };
 		F4D170D72B16495F00D8547A /* FruitAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D170D62B16495F00D8547A /* FruitAPITests.swift */; };
 		F4D170E12B16495F00D8547A /* FruitAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D170E02B16495F00D8547A /* FruitAPIUITests.swift */; };
 		F4D170E32B16495F00D8547A /* FruitAPIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D170E22B16495F00D8547A /* FruitAPIUITestsLaunchTests.swift */; };
+		F4D170F02B16497400D8547A /* Fruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D170EF2B16497400D8547A /* Fruit.swift */; };
+		F4D170F22B164ABB00D8547A /* FruitAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D170F12B164ABB00D8547A /* FruitAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +36,7 @@
 
 /* Begin PBXFileReference section */
 		F4D170C22B16495E00D8547A /* FruitAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FruitAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4D170C52B16495E00D8547A /* FruitAPIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitAPIApp.swift; sourceTree = "<group>"; };
-		F4D170C72B16495E00D8547A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F4D170C72B16495E00D8547A /* FruitDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetails.swift; sourceTree = "<group>"; };
 		F4D170C92B16495F00D8547A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4D170CC2B16495F00D8547A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F4D170D22B16495F00D8547A /* FruitAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FruitAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +44,8 @@
 		F4D170DC2B16495F00D8547A /* FruitAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FruitAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4D170E02B16495F00D8547A /* FruitAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitAPIUITests.swift; sourceTree = "<group>"; };
 		F4D170E22B16495F00D8547A /* FruitAPIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitAPIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F4D170EF2B16497400D8547A /* Fruit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruit.swift; sourceTree = "<group>"; };
+		F4D170F12B164ABB00D8547A /* FruitAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +96,9 @@
 		F4D170C42B16495E00D8547A /* FruitAPI */ = {
 			isa = PBXGroup;
 			children = (
-				F4D170C52B16495E00D8547A /* FruitAPIApp.swift */,
-				F4D170C72B16495E00D8547A /* ContentView.swift */,
+				F4D170C72B16495E00D8547A /* FruitDetails.swift */,
+				F4D170F12B164ABB00D8547A /* FruitAPI.swift */,
+				F4D170EF2B16497400D8547A /* Fruit.swift */,
 				F4D170C92B16495F00D8547A /* Assets.xcassets */,
 				F4D170CB2B16495F00D8547A /* Preview Content */,
 			);
@@ -257,8 +260,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4D170C82B16495E00D8547A /* ContentView.swift in Sources */,
-				F4D170C62B16495E00D8547A /* FruitAPIApp.swift in Sources */,
+				F4D170F02B16497400D8547A /* Fruit.swift in Sources */,
+				F4D170C82B16495E00D8547A /* FruitDetails.swift in Sources */,
+				F4D170F22B164ABB00D8547A /* FruitAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
